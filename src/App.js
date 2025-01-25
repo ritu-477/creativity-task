@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ShiningTextAnimation from './components/ShiningTextAnimation';
 import TextWithImage from './components/TextWithImage';
 
 function App() {
   return (
     <>
-      <TextWithImage/>
+      <ShiningTextAnimation />
+      <TextWithImage />
     </>
   );
 }
