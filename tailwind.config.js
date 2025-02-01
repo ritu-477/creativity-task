@@ -15,7 +15,7 @@ module.exports = {
           xl: "1180px",
         },
       },
-      
+
       animation: {
         shine: 'shine 4s linear infinite',
       },
@@ -30,7 +30,7 @@ module.exports = {
 
       colors: {
         'custom-gray': "#bfa9a9",
-        'custom-white':"#e2d9d9",
+        'custom-white': "#e2d9d9",
       },
 
       fontSize: {
@@ -38,14 +38,13 @@ module.exports = {
       },
 
       lineHeight: {
-        'custom-xl':"220px",
+        'custom-xl': "220px",
       },
-       
+
       backgroundImage: {
-        'india-flag': "url('/public/assets/images/webp/india-flag.webp')",
+        'india-flag': "url('/public/assets/images/webp/india-flag.webp')", 
       },
     },
   },
   plugins: [],
-}
-
+};
