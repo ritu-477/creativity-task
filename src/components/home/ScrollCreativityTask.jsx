@@ -24,7 +24,7 @@ const ScrollCreativityTask = () => {
                         start: 'clamp(top center)',
                         endTrigger: '.final',
                         end: 'clamp(top center)',
-                        scrub: 1,
+                        scrub: 2,
                     },
                 });
 
@@ -34,7 +34,6 @@ const ScrollCreativityTask = () => {
                 );
             });
         };
-
         createTimeline();
 
         window.addEventListener('resize', createTimeline);
