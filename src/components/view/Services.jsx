@@ -1,12 +1,13 @@
 import React from 'react'
-import TextWithImage from '../TextWithImage'
-import ShiningTextAnimation from '../ShiningTextAnimation'
+import ShiningTextAnimation from '../services/ShiningTextAnimation'
+import TextWithImage from '../services/TextWithImage'
+
 
 const Services = () => {
     return (
         <>
             <ShiningTextAnimation />
-            <TextWithImage />
+            <TextWithImage/>
         </>
   )
 }
