@@ -1,8 +1,11 @@
 import React from 'react'
+import TextWithImage from '../about/TextWithImage'
 
 function About() {
   return (
-    <div>About</div>
+      <>
+          <TextWithImage/>
+      </>
   )
 }
 
