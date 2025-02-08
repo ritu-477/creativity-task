@@ -1,1 +1,11 @@
-                            
+@keyframes borderMove {
+  0% { background-position: 0% 25%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 100% 75%; }
+  100% { background-position: 0% 100%; }
+}
+
+.animate-border {
+  animation: borderMove 3s infinite linear;
+}
+
