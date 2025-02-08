@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/view/Home';
 import About from './components/view/About';
 import Shining from './components/view/Shining';
-import CardAnimated from './components/view/CardsAnimated';
+import CardsAnimated from './components/view/CardsAnimated';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/Shining' element={<Shining />} />
-        <Route path='/cardanimated' element={<CardAnimated/>} />
+        <Route path='/cardsanimated' element={<CardsAnimated/>} />
 
       </Routes>
     </BrowserRouter>
