@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/view/Home';
 import About from './components/view/About';
 import Shining from './components/view/Shining';
-import CardAnimated from './components/view/CardAnimated';
+import CardAnimated from './components/view/CardsAnimated';
 
 function App() {
   return (
