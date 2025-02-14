@@ -12,17 +12,16 @@ const TiltAnimationCards = () => {
      <div className="flex flex-wrap gap-5 lg:gap-8 justify-center">
         {TILT_CARDS_DATA.map((obj) => (
           <Tilt
-            key={obj.index}
+            key={obj}
             glareEnable={true}
             glareMaxOpacity={100}
             tiltMaxAngleX={15}
             tiltMaxAngleY={15}
             transitionSpeed={1000}
             scale={1.1}
-            className="!cursor-pointer"
           >
             <div className="size-60 overflow-hidden flex items-center justify-center !cursor-pointer">
-              <img src={obj.image} className="w-full h-full object-cover !cursor-pointer" alt="nature" />
+              <img src={obj} className="w-full h-full object-cover !pointer-events-none" alt="nature" />
             </div>
           </Tilt>
         ))}
