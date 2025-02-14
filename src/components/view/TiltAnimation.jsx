@@ -1,10 +1,10 @@
 import React from 'react'
-import TaskCard from '../TiltAnimation/TiltAnimationCards'
+import TiltAnimationCards from '../TiltAnimation/TiltAnimationCards'
 
 const Task = () => {
   return (
    <>
-   <TaskCard/>
+   <TiltAnimationCards/>
    </>
   )
 }
