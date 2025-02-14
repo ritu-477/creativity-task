@@ -5,7 +5,7 @@ import {TILT_CARDS_DATA} from "../../utils/helper";
 const TiltAnimationCards = () => {
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-900 py-12">
+    <div className="flex justify-center items-center lg:h-screen bg-gray-900 max-lg:py-12">
      <div className="container mx-auto">
      <h2 className="xl:text-6xl lg:text-5xl sm:text-4xl text-3xl text-white mb-8 lg:mb-10 text-center font-semibold">
      Tilt Animation Cards</h2>
