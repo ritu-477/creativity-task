@@ -4,6 +4,7 @@ import Home from './components/view/Home';
 import About from './components/view/About';
 import Shining from './components/view/Shining';
 import CardsAnimated from './components/view/CardsAnimated';
+import Task from './components/view/Task';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/Shining' element={<Shining />} />
         <Route path='/cardsanimated' element={<CardsAnimated/>} />
-
+        <Route path='/task' element={<Task/>} />
       </Routes>
     </BrowserRouter>
   );
