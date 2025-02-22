@@ -5,6 +5,7 @@ import About from './components/view/About';
 import Shining from './components/view/Shining';
 import CardsAnimated from './components/view/CardsAnimated';
 import TiltAnimation from './components/view/TiltAnimation';
+import CircularMenu from './components/view/CircularMenu';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path='/Shining' element={<Shining />} />
         <Route path='/cardsanimated' element={<CardsAnimated/>} />
         <Route path='/tilt-animation' element={<TiltAnimation/>} />
+        <Route path='/circular-menu' element={<CircularMenu/>} />
+
       </Routes>
     </BrowserRouter>
   );

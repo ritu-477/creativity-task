@@ -15,3 +15,37 @@
   animation: borderMove 3s infinite linear;
 }
 
+.menu-item {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  position: absolute;
+}
+
+.menu-item.item-0 {
+  transform: rotate(0deg) translateY(-100px) rotate(0deg);
+}
+.menu-item.item-1 {
+  transform: rotate(72deg) translateY(-100px) rotate(-72deg);
+}
+.menu-item.item-2 {
+  transform: rotate(144deg) translateY(-100px) rotate(-144deg);
+}
+.menu-item.item-3 {
+  transform: rotate(216deg) translateY(-100px) rotate(-216deg);
+}
+.menu-item.item-4 {
+  transform: rotate(288deg) translateY(-100px) rotate(-288deg);
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
